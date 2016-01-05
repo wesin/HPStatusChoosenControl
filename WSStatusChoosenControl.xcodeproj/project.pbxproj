@@ -12,6 +12,8 @@
 		0AEC266C1C3B977600C901BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AEC266A1C3B977600C901BE /* Main.storyboard */; };
 		0AEC266E1C3B977600C901BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AEC266D1C3B977600C901BE /* Assets.xcassets */; };
 		0AEC26711C3B977600C901BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AEC266F1C3B977600C901BE /* LaunchScreen.storyboard */; };
+		0AEC267A1C3B979E00C901BE /* CommonFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEC26781C3B979E00C901BE /* CommonFunc.swift */; };
+		0AEC267B1C3B979E00C901BE /* HPStatusChoosenControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEC26791C3B979E00C901BE /* HPStatusChoosenControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0AEC266D1C3B977600C901BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AEC26701C3B977600C901BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AEC26721C3B977600C901BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AEC26781C3B979E00C901BE /* CommonFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonFunc.swift; sourceTree = "<group>"; };
+		0AEC26791C3B979E00C901BE /* HPStatusChoosenControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPStatusChoosenControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				0AEC26661C3B977600C901BE /* AppDelegate.swift */,
 				0AEC26681C3B977600C901BE /* ViewController.swift */,
+				0AEC26781C3B979E00C901BE /* CommonFunc.swift */,
+				0AEC26791C3B979E00C901BE /* HPStatusChoosenControl.swift */,
 				0AEC266A1C3B977600C901BE /* Main.storyboard */,
 				0AEC266D1C3B977600C901BE /* Assets.xcassets */,
 				0AEC266F1C3B977600C901BE /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AEC26691C3B977600C901BE /* ViewController.swift in Sources */,
+				0AEC267A1C3B979E00C901BE /* CommonFunc.swift in Sources */,
 				0AEC26671C3B977600C901BE /* AppDelegate.swift in Sources */,
+				0AEC267B1C3B979E00C901BE /* HPStatusChoosenControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
